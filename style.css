@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(background.jpg);
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness();
+}
+
+#logo-image {
+  width: 35px;
+  margin-right: 30px;
+}
+#search-container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+#formGroupExampleInput {
+  width: 45vw;
+  padding: 12px;
+  max-width: 600px;
+}
+#style-button {
+  padding: 12px;
+  background-color: white;
+  color: gray;
+  border: 1px solid black;
+}
+.color {
+  width: 50px;
+  height: 100px;
+  border: 4px solid black;
+}
+.result-storage {
+  margin-top: 150px;
+}
+#box1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+#saved {
+  display: flex;
+}
+.card {
+  width: 300px;
+  height: 100px;
+  margin: 15px;
+}
+.card:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+#wish {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  background-color: aquamarine;
+}
+.fav-card {
+  width: 250px;
+  height: 250px;
+  border: 10px solid red;
+}
+.card-body h5 {
+  margin-left: -10px;
+}
+.null {
+  font-size: 1.7rem;
+  color: #ff0000;
+  font-weight: 700;
+}
+
+#ingredients {
+  max-width: 300px;
+}
+.button {
+  color: white;
+  font-weight: 1.2rem;
+  padding: 8px;
+  background-color: #0d6efd;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+#ingred {
+  height: 300px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  display: none;
+}
+.ingredient-box {
+  border: 2px solid red;
+  box-sizing: border-box;
+  width: 200px;
+}
+.ingredient-box ul li {
+  margin-left: 2px;
+  padding-left: 3px;
+}
